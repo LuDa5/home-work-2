@@ -1,0 +1,137 @@
+:root {
+    --main-text-color: #2E2F42;
+    --second-text-colorr: #434455;
+}
+body {
+font-family: 'Roboto', serif;
+}
+.link {
+ text-decoration: none;
+}
+ .list {
+    list-style: none;
+ }
+.sektion-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20x;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.section-subtitle {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.sektion-text {
+    font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: var(--second-text-colorr);
+}
+ /* ---------HEADER---------- */
+.header-logo {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--main-text-color);
+}
+.header-menu-item {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color:var(--main-text-color);
+}
+.header-menu-link:is(:hover, :focus) {
+    color: #4D5AE5;
+}
+/* ---------HERO---------- */
+.hero{
+    background: #2E2F42 ;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+   background: #4D5AE5;
+   cursor: pointer;
+}
+/* ---------ADVENTAGES---------- */
+
+.adventages{}
+
+.adventages-list {}
+
+.adventages-item {}
+
+/* ---------DOINGES---------- */
+
+.doinges {}
+
+.doinges-list {}
+
+.doinges-item {}
+
+/* ---------TEAM---------- */
+
+.team {}
+
+.team-list {}
+
+.team-item {}
+
+/* ---------LOKATION---------- */
+
+.location {}
+
+.location-list {}
+
+.location-item {}
+
+.location-btn-special {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+cursor: pointer;
+background: #404BBF;
+}
+.location-btn {
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        cursor: pointer;
+        background: #F4F4FD;
+}
