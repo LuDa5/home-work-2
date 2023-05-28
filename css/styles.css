@@ -75,8 +75,8 @@ font-weight: 500;
 }
 .header-soc-item {
     line-height: 1.5;
-    letter-spacing: 0.02em
-    color:var(--second-text-colorr)
+    letter-spacing: 0.02em;
+    color:var(--second-text-colorr);
 }
 .header-soc-link:is(:hover, :focus) {
 color: #404bbf;
