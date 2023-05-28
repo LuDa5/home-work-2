@@ -16,7 +16,7 @@ background-color: #FFFFFF;
 .sektion-title {
 font-weight: 500;
     font-size: 36px;
-    line-height: 1.11x;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
@@ -41,8 +41,6 @@ font-weight: 500;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -63,6 +61,15 @@ font-weight: 500;
 .header-menu-link:is(:hover, :focus) {
     color: #404bbf;
 }
+.header-menu-link  {
+    color: #2e2f42;
+}
+.header-soc-link {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
 .header-address {
     font-style: normal;
 }
@@ -92,8 +99,6 @@ color: #404bbf;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
    background: #4D5AE5;
@@ -143,28 +148,12 @@ text-transform: capitalize;
 
 .location-item {}
 
-.location-btn-special {
-    font-family: "Roboto",
-        sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-cursor: pointer;
-background: #404BBF;
-}
 .location-btn { 
      font-family: "Roboto",
         sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
         color: #4D5AE5;
@@ -189,8 +178,6 @@ background-color: #2e2f42;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
